@@ -52,3 +52,46 @@ The project uses public APIs to fetch real-time data and provides a clean, inter
 
 ## 📁 Project Structure
 
+movie-book-explorer
+│
+├── frontend
+│   ├── public
+│   ├── src
+│   │   ├── components
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── SearchBar.jsx
+│   │   │   ├── MovieList.jsx
+│   │   │   ├── BookList.jsx
+│   │   │   ├── Favorites.jsx
+│   │   │   └── Pagination.jsx
+│   │   │
+│   │   ├── pages
+│   │   │   ├── Home.jsx
+│   │   │   └── FavoritesPage.jsx
+│   │   │
+│   │   ├── services
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
+│   ├── .env
+│   ├── package.json
+│   ├── vite.config.js
+│   └── README.md
+│
+├── backend
+│   ├── api
+│   │   └── index.js
+│   │
+│   ├── package.json
+│   ├── vercel.json
+│   └── .env
+│
+└── README.md
+API Endpoints
+BOOK API:GET /books?q=atomic habits&page=1
+
+MOVIE API:GET /movies?q=avatar&page=1
+
