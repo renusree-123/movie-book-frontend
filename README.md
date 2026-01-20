@@ -1,16 +1,54 @@
-# React + Vite
+# 🎬📚 Movie–Book Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie–Book Explorer is a full-stack web application that allows users to search and explore movies and books in one place.  
+The project uses public APIs to fetch real-time data and provides a clean, interactive user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+### 🌐 Deployed Links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** https://movie-book-frontend-ojmv.vercel.app/ 
+- **Backend:** https://movie-book-backend.vercel.app  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🔍 Search movies using **TMDB API**
+- 📖 Search books using **Google Books API**
+- ⭐ Display ratings, descriptions, and details
+- 📄 Pagination support for large results
+- ❤️ Favorites list to save items
+- 🌗 Dark / Light mode toggle
+- 🎨 Clean and responsive UI
+- ⚡ Fast API integration
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React (Vite)
+- JavaScript
+- Axios
+- React Router
+- CSS / Tailwind (if used)
+
+### Backend
+- Node.js
+- Express.js
+- Axios
+- CORS
+- TMDB API
+- Google Books API
+
+### Deployment
+- Frontend: **Vercel**
+- Backend: **Vercel**
+
+---
+
+## 📁 Project Structure
+
